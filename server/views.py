@@ -15,7 +15,7 @@ with open("classifier.pkl", "rb") as f:
 with open("vectorizer.pkl", "rb") as v:
     cv = pickle.load(v)
 
-#Tokenizing function 
+#processing and tokenizing 
 def process(text):
     nopunc = [char for char in text if char not in string.punctuation]
     nopunc = ''.join(nopunc)
