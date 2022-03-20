@@ -1,5 +1,5 @@
 from distutils.log import debug
-from server import server
+from server.main import server
 
 if __name__ == "__main__":
     server.run()
