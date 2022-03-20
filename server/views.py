@@ -37,9 +37,11 @@ def index():
         flag = classifier.predict(vectorized_text)[0]
         if flag == 1:
             flash("This is a SPAM email.")
+            print("spam")
             return render_template("base.html", flag = flag)
         elif flag == 0:
             flash("This is a HAM email.")
+            print("ham")
             return render_template("base.html", flag = flag)
-    elif request.method == "GET":
-        return render_template("base.html")
+    print("get")        
+    return render_template("base.html")
