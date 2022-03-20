@@ -6,6 +6,8 @@ import nltk
 from nltk.corpus import stopwords
 import string, pickle
 
+nltk.download('stopwords')
+
 #loading classifier from pickle 
 with open("classifier.pkl", "rb") as f:
     classifier = pickle.load(f)
