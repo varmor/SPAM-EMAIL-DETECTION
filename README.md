@@ -8,7 +8,7 @@
 ## How to use
 To visit the website, [Click Here](https://spam-email-detector-app.herokuapp.com/)
 
-# Other details about the project:
+## Other details about the project:
 - My problem statement is a supervised learning machine learning problem.
 - I am using a classification model (Naive Bayes Classifier) to solve the problem statement.
 - I have a 5694 row labeled dataset data set.
