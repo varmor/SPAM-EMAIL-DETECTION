@@ -1,6 +1,21 @@
 # SPAM-EMAIL-DETECTION
-![spam email detector gif](https://user-images.githubusercontent.com/73105729/173593929-c49c2a83-0a0d-4326-8d9d-2c1a3884d4bb.gif)
 
+![spam email detector gif](https://user-images.githubusercontent.com/73105729/173595594-da5de7fd-b5f8-441e-9ca2-9568bad59ff8.gif)
 
-Website link:[ http://spam-email-detector-app.herokuapp.com/
-](https://spam-email-detector-app.herokuapp.com/)![spam email detector gif](https://user-images.githubusercontent.com/73105729/173594648-469ca9e5-84b8-4849-8552-f714af22a63f.gif)
+# Use Case
+- To check whether an Email is Spam or Ham.
+
+## How to use
+To visit the website, [Click Here](https://spam-email-detector-app.herokuapp.com/)
+
+# Other details about the project:
+- My problem statement is a supervised learning machine learning problem.
+- I am using a classification model (Naive Bayes Classifier) to solve the problem statement.
+- I have a 5694 row labeled dataset data set.
+- Accuracy of my model is 0.99 (0.9912203687445127).
+- Precision score of my model to detect SPAM Email is 0.97, and the precision score of our mode to detect HAM Email is 1.00.
+
+## Versions
+### V2.0
+
+Working model is deployed on Heroku, [Click here](https://spam-email-detector-app.herokuapp.com/) to visit the website.
