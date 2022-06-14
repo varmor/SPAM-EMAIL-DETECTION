@@ -9,12 +9,12 @@ import string, pickle
 nltk.download('stopwords')
 
 #loading classifier from pickle 
-with open("classifier.pkl", "rb") as f:
+with open("models/classifier.pkl", "rb") as f:
     classifier = pickle.load(f)
 
 
 #loading cv from picle 
-with open("vectorizer.pkl", "rb") as v:
+with open("models/vectorizer.pkl", "rb") as v:
     cv = pickle.load(v)
 
 #processing and tokenizing 
