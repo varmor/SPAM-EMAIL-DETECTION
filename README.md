@@ -9,7 +9,7 @@
 To visit the website, [Click Here](https://spam-email-detector-app.herokuapp.com/)
 
 ## Other details about the project:
-- This problem statement is a supervised learning machine learning problem.
+- This problem statement is a supervised machine learning problem.
 - I used 2 classification models (SVM Classifier & Naive Bayes Classifier) to solve the problem statement.
 - I have used 5694 row labeled dataset data set from kaggle.
 - Accuracy of my model is 0.99 (0.9912203687445127).
