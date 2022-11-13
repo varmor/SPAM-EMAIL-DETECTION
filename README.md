@@ -1,4 +1,4 @@
-# SPAM-EMAIL-DETECTION
+# SPAM-EMAIL-DETECTOR
 
 ![spam email detector gif](https://user-images.githubusercontent.com/73105729/173595594-da5de7fd-b5f8-441e-9ca2-9568bad59ff8.gif)
 
